@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: oklch(0.1 0 0);         /* Fundo geral: cinza bem escuro */
+  --color-sidebar: oklch(0.21 0 0);           /* Sidebar: um tom um pouco mais claro */
+
+  --color-dashboard: oklch(0.551 0.261 296.48);          /* Roxo (ativo no menu) */
+  --color-dashboard-opt: oklch(0.596 0.228 266.29 / 0.1); /* Roxo opacidade (ativo no menu) */
+  --color-venda: oklch(0.592 0.129 168.82);              /* Verde (Vendas Realizadas) */
+  --color-andamento: oklch(0.274 0.219 306.6);          /* Azul escuro (Em Andamento) */
+  --color-suporte: oklch(0.547 0.199 83.94);              /* Marrom/Mostarda (Suporte) */
+  --color-pararam: oklch(0.405 0.261 27.17);             /* Vermelho escuro (Pararam de responder) */
+  --color-gradiente-claro: oklch(0.92 0.2 95);      /* Amarelo claro (Gradiente) */
+  --color-gradiente-escuro: oklch(0.72 0.2 85);     /* Amarelo escuro/dourado */
+
+  --color-tag-suporte: oklch(0.92 0.18 95);         /* Tag Suporte */
+  --color-tag-venda: oklch(0.85 0.16 340);          /* Tag Venda */
+  --color-tag-progresso: oklch(0.85 0.17 160);      /* Tag Em Progresso */
+
+  --color-text-progresso: oklch(0.674 0.144 158.19); /* Texto Em Progresso */
+  --color-text-suporte: oklch(0.715 0.213 55.78);          /* Texto Suporte */
+  --color-text-dashboard: oklch(0.596 0.228 266.29); /* Texto chat */
+
+  --color-text-light: oklch(0.98 0 0);              /* Branco puro para textos */
+  --color-text-muted: oklch(0.58 0.01 310); /* #7E7D82 - Texto secundário */
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
